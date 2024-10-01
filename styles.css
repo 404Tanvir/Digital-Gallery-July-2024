@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #343a40;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 400px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    padding-bottom: 80px; /* for footer spacing */
+}
+
+
+.image-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.image-modal .modal-content {
+    position: relative;
+}
+
+.image-modal img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.image-modal .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
